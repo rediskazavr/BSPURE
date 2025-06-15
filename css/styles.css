@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Alagard';
+    src: url('../fonts/alagard-12px-unicode.ttf') format('truetype');
+}
+
+body {
+    background-color: black;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Alagard', Arial, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    overflow: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: red;
+    font-family: 'Alagard';
+    font-size: 64px;
+}
+
+p {
+    color: white;
+    font-family: 'Alagard';
+    font-size: 20px;
+}
+
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 800px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-family: 'Alagard', Arial, sans-serif;
+    max-width: 80%;
+    overflow-y: auto;
+    word-wrap: break-word;
+}
