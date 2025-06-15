@@ -11,6 +11,9 @@
 
 BSPURE - BSPWM dotfiles for Arch Linux, this build is lightweight and simple. You can download both the scripted version and the .iso image.
 
+> [!IMPORTANT]
+> Attention! This repository is under development, and some features may not work. Install and test strictly on a virtual machine!
+
 ## How to install:
 ```
 git clone https://github.com/rediskazavr/BSPURE
