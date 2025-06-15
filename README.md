@@ -1,4 +1,14 @@
 # BSPURE
+
+[![GitHub Stars](https://img.shields.io/github/stars/rediskazavr/BSPURE.svg?style=social&label=Star)](https://github.com/rediskazavr/BSPURE)
+[![GitHub Forks](https://img.shields.io/github/forks/rediskazavr/BSPURE.svg?style=social&label=Fork)](https://github.com/rediskazavr/BSPURE)
+[![GitHub Issues](https://img.shields.io/github/issues/rediskazavr/BSPURE.svg)](https://github.com/rediskazavr/BSPURE/issues)
+[![License](https://img.shields.io/github/license/rediskazavr/BSPURE.svg)](https://github.com/rediskazavr/BSPURE/blob/master/LICENSE)
+
+<p align="center">
+  <img src="./docs/latte.png" width="400" />
+</p>
+
 BSPURE - BSPWM dotfiles for Arch Linux, this build is lightweight and simple. You can download both the scripted version and the .iso image.
 
 ## How to install:
