@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/github/license/rediskazavr/BSPURE.svg)](https://github.com/rediskazavr/BSPURE/blob/master/LICENSE)
 
 <p align="center">
-  <img src="./docs/img/latte.png" width="400" />
+  <img src="./docs/img/preview.png"/>
 </p>
 
 BSPURE - BSPWM dotfiles for Arch Linux, this build is lightweight and simple. You can download both the scripted version and the .iso image.
