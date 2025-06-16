@@ -14,14 +14,14 @@ BSPURE - BSPWM dotfiles for Arch Linux, this build is lightweight and simple. Yo
 > [!IMPORTANT]
 > Attention! This repository is under development, and some features may not work. Install and test strictly on a virtual machine!
 
-## How to install:
+## 💻How to install💻:
 ```
 git clone https://github.com/rediskazavr/BSPURE
 cd BSPURE
 chmod +x install.sh
 ./install.sh
 ```
-## Support Me
+## 😎Support Me😎
 <p align="center">
   <img src="./docs/img/BTC.png"/>
 </p>
