@@ -14,15 +14,14 @@ sudo pacman -Syu
 sudo pacman -S xorg xorg-xinit bspwm sxhkd alacritty feh rofi git base-devel neovim fastfetch cava cmatrix firefox thunar tgpt zsh --noconfirm
 
 # create folders for configs
-sudo cd ~/.config/
-sudo mkdir bspwm sxhkd alacritty rofi nvim
+sudo mkdir ~/.config
 
 # copy dotfiles
-sudo cp ~/BSPURE/dotfiles/wallpaper/wallpaper.png ~/.config
-sudo cp ~/BSPURE/dotfiles/alacritty/alacritty.toml ~/.config/alacritty/
-sudo cp ~/BSPURE/dotfiles/bspwm/bspwmrc ~/.config/bspwm/
-sudo cp ~/BSPURE/dotfiles/sxhkd/sxhkdrc ~/.config/sxhkd/
-sudo cp ~/BSPURE/dotfiles/alacritty/alacritty.toml ~/.config/polybar/
+sudo cp ~/BSPURE/dotfiles/wallpaper.png ~/.config/
+sudo cp ~/BSPURE/dotfiles/alacritty/ ~/.config/
+sudo cp ~/BSPURE/dotfiles/bspwm/ ~/.config/
+sudo cp ~/BSPURE/dotfiles/sxhkd/ ~/.config/
+sudo cp ~/BSPURE/dotfiles/alacritty/ ~/.config/
 
 # Install zsh
 sudo chsh -s $(which zsh)
