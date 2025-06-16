@@ -11,7 +11,7 @@
 sudo pacman -Syu
 
 # Install packages
-sudo pacman -S xorg xorg-xinit bspwm sxhkd alacritty feh rofi git base-devel neovim fastfetch cava cmatrix firefox thunar tgpt zsh --noconfirm
+sudo pacman -S xorg xorg-xinit bspwm sxhkd polybar alacritty feh rofi git base-devel neovim fastfetch cava cmatrix firefox thunar tgpt zsh --noconfirm
 
 # Create folders for configs (skip if exists)
 mkdir -p ~/.config
