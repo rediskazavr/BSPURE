@@ -21,3 +21,10 @@ cd BSPURE
 chmod +x install.sh
 ./install.sh
 ```
+## Support Me
+<p align="center">
+  <img src="./docs/img/BTC.png"/>
+</p>
+
+> [!IMPORTANT]
+> Bitcoin: bc1qgdasrl0m8n3gxqn3wl03xd7v95s52u7ufu65ms (TrustWallet: Send only Bitcoin (BTC) to this address. Sending any other coins may result in loss of funds).
