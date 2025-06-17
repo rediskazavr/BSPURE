@@ -18,10 +18,12 @@ mkdir -p ~/.config
 
 # Copy dotfiles (with -r for directories)
 cp ~/BSPURE/dotfiles/wallpaper.png ~/.config/
+cp -r ~/BSPURE/dotfiles/fastfetch/ ~/.config/
 cp -r ~/BSPURE/dotfiles/alacritty/ ~/.config/
 cp -r ~/BSPURE/dotfiles/polybar/ ~/.config/
 cp -r ~/BSPURE/dotfiles/bspwm/ ~/.config/
 cp -r ~/BSPURE/dotfiles/sxhkd/ ~/.config/
+cp -r ~/BSPURE/dotfiles/rofi/ ~/.config/
 chmod +x ~/.config/bspwm/bspwmrc
 
 # Install zsh and Oh My Zsh (for current user, not root)
