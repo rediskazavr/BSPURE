@@ -9,6 +9,7 @@
 # \_______/  \______/ \__|       \______/ \__|  \__|\________|
 
 # start program
+picom &
 polybar &
 alacritty &
 feh --bg-scale ~/.config/wallpaper.png &

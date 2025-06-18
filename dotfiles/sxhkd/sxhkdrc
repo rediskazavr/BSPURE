@@ -9,18 +9,22 @@
 
 # bspwm independent hotkeys
 # firefox browser
-super + x
+super + g
     firefox
 # terminal emulator
 super + Return
     alacritty
 # program launcher
-super + @space
-    rofi -show drun
+super + d
+    dmenu_run -nb "#111111" -nf "#8B0000" -sb "#8B0000" -sf "#FFFFFF"
 # make sxhkd reload its configuration files:
 super + Escape
     pkill -USR1 -x sxhkd
-#
+
+# thunar manager
+super + t
+    thunar
+
 # bspwm hotkeys
 #
 # quit/restart bspwm

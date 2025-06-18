@@ -11,7 +11,7 @@
 sudo pacman -Syu
 
 # Install packages
-sudo pacman -S xorg xorg-xinit bspwm sxhkd polybar alacritty feh rofi git base-devel neovim fastfetch cava cmatrix firefox thunar tgpt zsh --noconfirm
+sudo pacman -S xorg xorg-xinit bspwm sxhkd polybar alacritty feh dmenu git base-devel neovim fastfetch cava cmatrix firefox thunar tgpt zsh --noconfirm
 
 # Create folders for configs (skip if exists)
 mkdir -p ~/.config
@@ -23,6 +23,7 @@ cp -r ~/BSPURE/dotfiles/alacritty/ ~/.config/
 cp -r ~/BSPURE/dotfiles/polybar/ ~/.config/
 cp -r ~/BSPURE/dotfiles/bspwm/ ~/.config/
 cp -r ~/BSPURE/dotfiles/sxhkd/ ~/.config/
+cp -r ~/BSPURE/dotfiles/picom/ ~/.config/
 cp -r ~/BSPURE/dotfiles/rofi/ ~/.config/
 chmod +x ~/.config/bspwm/bspwmrc
 
@@ -31,11 +32,6 @@ chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
-# Create .zshrc correctly
-cat <<EOF > ~/.zshrc
-export ZSH="\$HOME/.oh-my-zsh"
-ZSH_THEME="bira"
-EOF
 # .xinitrc
 cat <<EOF > ~/.xinitrc
 #!/bin/bash
@@ -49,6 +45,22 @@ makepkg -si --noconfirm
 # Install Fonts (yay doesn't need sudo)
 yay -S pxplus-ibm-vga8 --noconfirm
 fc-cache -fv
+
+# Install picom(with yay)
+yay -S picom-git --noconfirm
+
+# GTK Install
+mkdir -p ~/.local/share/icons
+mkdir -p ~/.local/share/themes
+
+cp -r ~/BSPURE/gtk/icons/ ~/.local/share/icons
+cp -r ~/BSPURE/gtk/themes/ ~/.local/share/themes
+
+gsettings set org.gnome.desktop.interface cursor-theme "Sunset Cursors"
+gsettings set org.gnome.desktop.interface gtk-theme "Sunrise-Dark"
+gsettings set org.gnome.desktop.wm.preferences theme "Sunrise-Dark"
+
+## clear terminal
 clear
 
 # Reboot system
