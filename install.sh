@@ -50,11 +50,11 @@ fc-cache -fv
 yay -S picom-git --noconfirm
 
 # GTK Install
-mkdir -p ~/.local/share/icons
-mkdir -p ~/.local/share/themes
+mkdir -p ~/.local/share/icons/
+mkdir -p ~/.local/share/themes/
 
-cp -r ~/BSPURE/gtk/icons/ ~/.local/share/icons
-cp -r ~/BSPURE/gtk/themes/ ~/.local/share/themes
+cp -r ~/BSPURE/gtk/icons/Sunset-cursor/ ~/.local/share/icons
+cp -r ~/BSPURE/gtk/themes/Sunrise-Dark/ ~/.local/share/themes
 
 gsettings set org.gnome.desktop.interface cursor-theme "Sunset Cursors"
 gsettings set org.gnome.desktop.interface gtk-theme "Sunrise-Dark"
