@@ -21,7 +21,7 @@ cd BSPURE
 chmod +x install.sh
 ./install.sh
 ```
-## 😎Support Me😎
+## 😎Support Me:😎
 <p align="center">
   <img src="./docs/img/BTC.png"/>
 </p>
