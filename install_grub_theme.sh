@@ -16,8 +16,11 @@ sudo pacman -S grub
 # Install theme
 sudo cp -r ~/BSPURE/gtk/grub/MilkGrub /boot/grub/themes/
 
+# Root
+sudo chown $USER /boot/grub/themes/
+
 # Edit config
-cat <<EOF > /etc/default/grub
+sudo cat <<EOF > /etc/default/grub
 GRUB_THEME="/boot/grub/themes/MilkGrub/theme.txt"
 EOF
 
